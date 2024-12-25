@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="assets/logo.png" alt=""></div>
+        <ul class="nav-items">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-txt">
+            <h2 class="product-header">New Product Released ! <br>
+                It's <span>Pilus Garuda</span></h2>
+            <p class="product-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ut alias in sequi cumque similique nulla aut tenetur hic expedita veritatis ipsa itaque tempora, dolorem minus asperiores necessitatibus magnam voluptas!
+            </p>
+            <button class="order-here">Order Here !</button>
+        </div>
+        <div class="main-img">
+            <img src="assets/rumput.png" alt="" class="pilus">
+        </div>
+    </main>
+    <div class="thumb">
+        <ul class="product-gallery">
+            <li><img src="assets/rumput.png" alt="" onclick="imgSlide('assets/rumput.png'); changeColor('rgb(20, 119, 20)')"></li>
+            <li><img src="assets/pedas.png" alt="" onclick="imgSlide('assets/pedas.png'); changeColor('#932929')"></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</html>
